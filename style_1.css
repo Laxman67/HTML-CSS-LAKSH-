@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url(dark-wallpapers.jpg); */
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+    
+}
+
+#table{
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-left: 15px;
+    padding: 15px;
+    font-size: larger;
+    border: 2px solid rgb(255, 255, 255);
+    width: 85%;
+   
+    
+
+}
+#objective {
+
+    margin-left: 40px;
+    margin-right: 65%;
+    
+    
+}
+
+
+
+
+th{
+    border: 1px solid white;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+td{
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+i  fa-angle-right{
+    padding-left: 10px;
+}
+/* #Qualification_div{
+margin-top: 15px;
+margin-left: 30px;
+padding: 15px;
+
+}
+
+
+#obj_2 {
+padding: 10px;
+} */
+
+
+#obj_2{
+    font-size: 20px;
+    color: rgb(239, 249, 255);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+} 
+#obj_1{
+
+    font-size: 20px;
+    color: rgb(24, 214, 228);
+    text-align: center;
+font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: url("dark-wallpapers.jpg") no-repeat fixed center;
+  }
+
+#logo{
+    padding-left: 0px;
+    vertical-align:middle;
+    align-content: left;
+}
+
+#head-banner {
+
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(176, 176, 180);
+    padding: 7px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+
+}
+td:hover{
+    background-color: rgb(20, 219, 229);
+    color: black;
+    font-size:18px ;
+}
+td a:hover{
+    background-color: rgb(20, 219, 229);
+    color: black;
+    font-size:18px ;
+}
+a:link{
+    color: beige;
+    text-decoration: none;
+    
+
+}
+
+.footer{
+    color: black;
+    text-align: center;
+   border: 10px;
+    border: 2px solid black;
+    position: relative;
+    width: 100%;
+    margin-top: 500px;
+    background-color: #a8a5a2;
+    padding: 15px;
+    padding-bottom: 0px;
+    
+    
+
+}
+
+.menu-bar{
+    background-color: #bdc3c7;
+    text-align: center;
+    position: relative;
+    
+    
+   
+    
+}
+
+.menu-bar ul{
+    color: black;
+    display: inline-flex;
+    list-style-type:none;
+}
+.menu-bar ul li{
+    margin: 10px;
+    padding: 10px;
+    width: 130px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active,.menu-bar ul li:hover{
+
+    background-color:#34e7e4;
+    border-radius: 10px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #34e7e4;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: -15px;
+
+    }
+
+    .menu-bar ul li:hover .sub-menu-1 ul{
+
+      
+        display: block;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+
+    text-align: center;
+   border-bottom: 1px dashed black;
+   background: transparent;
+    }
+
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+        border-bottom: none;
+    }
+
+    .menu-bar ul li:hover .sub-menu-1 ul li a{
+        color: blue;
+    }
+
+    .Heading{
+
+        width: 30%;
+        position: relative;
+        left: 35%;
+        height: 100px;
+        margin-top: 20px;
+         padding: 1px;
+        text-align: center;
+         font-size: 35px;
+         border: 2px dotted white;
+         border-radius: 10px;
+    }
+
+  
+
+    code{
+        text-shadow: 2px 2px 4px  white;
+    }
